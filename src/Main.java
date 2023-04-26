@@ -18,16 +18,15 @@ public class Main {
 
         carrito.agregarItem(i1);
         carrito.agregarItem(i2);
+        carrito.agregarItem(i3);
 
         carrito.mostrarCarrito();
+        
+        //Descomentar las siguientes lineas para evaluar su funcionalidad.
+        
+        //eliminarItem(i3);
 
-        /*carrito.eliminarProducto(caperusita);
-
-        carrito.mostrarCarrito();
-
-        carrito.agregarProducto(asdasd);
-
-        carrito.mostrarCarrito();*/
+        //carrito.mostrarCarrito();
 
     }
 }
