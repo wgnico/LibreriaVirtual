@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class CarritoDeCompras {
     private ArrayList<ItemCarrito> itemCarritos = new ArrayList<>();
-    ItemCarrito itemCarrito;
+    
 
     public void agregarItem(ItemCarrito itemCarrito) {
         itemCarritos.add(itemCarrito);
